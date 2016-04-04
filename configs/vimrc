@@ -6,13 +6,16 @@ set hlsearch
 set tabstop=3
 set shiftwidth=3
 set smarttab
-"set autoindent
-"set smartindent
+set autoindent
+set smartindent
 
 "for vim-latexsuite
-"filetype plugin indent on
-"set grepprg=grep\ -nH\ $*
-"let g:tex_flavor = "latex"
+filetype plugin indent on
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor = "latex"
+
+"for vim-jedi
+let g:jedi#force_py_version=3
 
 "for wildmenu
 set wildmenu
